@@ -4,6 +4,7 @@ import { Benefits } from "@/components/Benefits";
 import { UseCases } from "@/components/UseCases";
 import { DemoSection } from "@/components/DemoSection";
 import { Pricing } from "@/components/Pricing";
+import BuiltInCRM from "@/components/BuiltInCRM";
 import CRMIntegrations from "@/components/CRMIntegrations";
 import { WordPressSection } from "@/components/WordPressSection";
 import { Testimonials } from "@/components/Testimonials";
@@ -19,6 +20,7 @@ const Index = () => {
       <UseCases />
       <DemoSection />
       <Pricing />
+      <BuiltInCRM />
       <CRMIntegrations />
       <WordPressSection />
       <Testimonials />
