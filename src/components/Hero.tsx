@@ -40,7 +40,7 @@ export const Hero = () => {
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2">
               <Play className="mr-2" />
-              See It In Action
+              Talk To Voquii Now
             </Button>
           </div>
 
