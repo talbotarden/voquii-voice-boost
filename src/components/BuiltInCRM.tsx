@@ -1,5 +1,6 @@
 import { Database, Users, Calendar, BarChart3, MessageSquare, Bell } from "lucide-react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const BuiltInCRM = () => {
   const features = [
@@ -111,9 +112,11 @@ const BuiltInCRM = () => {
                   </span>
                 </li>
               </ul>
-              <Button size="lg" className="bg-gradient-to-r from-gradient-start to-gradient-mid hover:shadow-glow transition-all duration-300">
-                Explore CRM Features
-              </Button>
+              <Link to="/crm">
+                <Button size="lg" className="bg-gradient-to-r from-gradient-start to-gradient-mid hover:shadow-glow transition-all duration-300">
+                  Explore CRM Features
+                </Button>
+              </Link>
             </div>
             <div className="relative">
               <div className="aspect-video rounded-2xl bg-gradient-to-br from-gradient-start/20 to-gradient-end/20 border border-gradient-mid/30 flex items-center justify-center backdrop-blur-sm">
