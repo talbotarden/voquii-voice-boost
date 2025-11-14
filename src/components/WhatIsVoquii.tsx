@@ -39,8 +39,7 @@ export const WhatIsVoquii = () => {
               <div>
                 <h3 className="text-2xl font-semibold mb-3">The Solution</h3>
                 <p className="text-lg text-muted-foreground">
-                  Voquii adds a natural-sounding AI voice widget to your website. Visitors can ask questions 
-                  and get instant answers—through voice. No waiting. No forms. No friction.
+                  Voquii adds a natural, human-like AI voice assistant to your website, letting visitors ask questions and get instant answers—no waiting, no forms, no friction.
                 </p>
               </div>
             </div>
