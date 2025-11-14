@@ -48,7 +48,7 @@ export const Hero = () => {
           <div className="pt-12 flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <span className="text-2xl">✓</span>
-              <span>No credit card required</span>
+              <span>Free Forever</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">✓</span>
