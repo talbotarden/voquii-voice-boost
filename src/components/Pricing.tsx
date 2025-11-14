@@ -138,9 +138,33 @@ export const Pricing = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground mb-8">
             All plans include natural-sounding AI voice, lead capture, and real-time analytics.
           </p>
+          
+          <div className="max-w-4xl mx-auto bg-gradient-to-br from-gradient-start/10 via-gradient-mid/10 to-gradient-end/10 rounded-2xl border border-gradient-mid/20 p-8">
+            <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end bg-clip-text text-transparent">
+              Every Plan Includes
+            </h3>
+            <div className="grid md:grid-cols-2 gap-4 text-left">
+              <div className="flex items-start gap-3">
+                <Check className="w-5 h-5 text-gradient-mid mt-0.5 flex-shrink-0" />
+                <span className="text-muted-foreground">Custom dashboard with advanced analytics</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <Check className="w-5 h-5 text-gradient-mid mt-0.5 flex-shrink-0" />
+                <span className="text-muted-foreground">Full call recordings for review</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <Check className="w-5 h-5 text-gradient-mid mt-0.5 flex-shrink-0" />
+                <span className="text-muted-foreground">AI-generated call summaries</span>
+              </div>
+              <div className="flex items-start gap-3">
+                <Check className="w-5 h-5 text-gradient-mid mt-0.5 flex-shrink-0" />
+                <span className="text-muted-foreground">Complete widget customization</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
