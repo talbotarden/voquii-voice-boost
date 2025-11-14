@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 export const CTAFooter = () => {
@@ -74,10 +75,10 @@ export const CTAFooter = () => {
             </p>
           </div>
           <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-primary transition-colors">Contact</a>
-            <a href="#" className="hover:text-primary transition-colors">Support</a>
+            <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>
+            <Link to="/contact" className="hover:text-primary transition-colors">Contact</Link>
+            <Link to="/support" className="hover:text-primary transition-colors">Support</Link>
           </div>
         </div>
       </div>
